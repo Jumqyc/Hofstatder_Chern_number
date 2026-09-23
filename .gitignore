@@ -1,0 +1,20 @@
+# build trees
+build/
+build-*/
+cmake-build-*/
+
+# compiled binary
+hofstadter
+
+# generated results
+out/
+
+# virtualenv / local tools
+.venv/
+.tools/
+
+# reference pickles
+reference/*.npz
+
+# object files
+*.o
