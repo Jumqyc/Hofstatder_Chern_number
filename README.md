@@ -1,5 +1,11 @@
 # Hofstadter (Chern butterfly) — C++ port of `Hofstadter.ipynb`
 
+<p align="center">
+  <img src="out/Chern_numbers.png" alt="Hofstadter butterfly coloured by Chern number" width="640">
+</p>
+
+*Chern-number butterfly — `q_max=180`, `sep=500`, `n_mu=8000` (9879×8000, `out/Chern_numbers.png`).*
+
 A self-contained C++17 + OpenMP rewrite of the notebook computation:
 
 1. For every coprime pair `(p,q)`, `1 <= p < q <= q_max` (sorted by `phi = p/q`),
